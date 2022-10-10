@@ -68,5 +68,3 @@ yarn.lock
 .vscode
 *.xslx
 
-node_modules/
-dist/
