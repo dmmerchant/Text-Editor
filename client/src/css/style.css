@@ -32,6 +32,21 @@ h1 {
   font-weight: 550;
   letter-spacing: 0.9px;
 }
+.CodeMirror {
+  height: calc(100vh - (2 * var(--navbar-height)))
+}
+#notebar {
+  height: var(--navbar-height);
+  background-color: grey;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 22px;
+  font-weight: 550;
+  letter-spacing: 0.9px;
+}
 
 .navbar-brand img {
   padding-top: 10px;
@@ -78,6 +93,10 @@ h1 {
 
 .nav-btn {
   margin: 25px;
+}
+.btnTitle {
+  text-align: center;
+  display: inline-block;
 }
 
 .btn {
